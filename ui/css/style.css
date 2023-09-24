@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.top-header {
+  margin: 20px 0px 20px 0px;
+}
+
+.header {
+  background: #6366f1;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 24px;
+  font-family: sans-serif;
+}
+
+.input-container {
+  width: 300px;
+
+  display: flex;
+}
+
+.input-container .input {
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 75%;
+  padding: 3px 3px;
+  outline: none;
+}
+
+.search-icon-container {
+  background: #2563eb;
+  width: 20%;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 3px;
+}
+
+.search-icon {
+  font-size: 17px;
+  color: white;
+  width: 50px;
+  padding: 0px;
+  margin: 0px;
+
+  border-radius: 5px;
+}
+
+.control-panel {
+  background: lightgray;
+  text-align: right;
+  padding: 4px;
+  font-family: sans-serif;
+}
+
+.languages {
+  background: white;
+  border: 1px solid gray;
+}
+
+#editor {
+  height: 400px;
+}
+
+.button-container {
+  text-align: right;
+  padding: 4px;
+}
+
+.btn {
+  background: #57a958;
+  color: white;
+  padding: 8px;
+  border: 0;
+}
+
+.output {
+  padding: 4px;
+  border: 2px solid gray;
+  min-height: 100px;
+  width: 99%;
+  resize: none;
+}
